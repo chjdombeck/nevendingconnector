@@ -27,13 +27,13 @@
     text-wrap: pretty;
   }
   :focus-visible {
-    outline: 3px solid #01aef0;
+    outline: 3px solid #00b2f0;
     outline-offset: 2px;
     border-radius: 4px;
   }
   ::selection {
-    background: #01aef0;
-    color: #14172e;
+    background: #00b2f0;
+    color: #0b1120;
   }
 }
 
@@ -45,28 +45,28 @@
     @apply py-16 lg:py-24;
   }
   .eyebrow {
-    @apply font-display text-navy text-[15px] font-semibold;
+    @apply font-display text-brand text-[15px] font-semibold;
   }
   .btn {
     @apply inline-flex items-center justify-center gap-2 rounded-sm px-5 py-3 text-[15px] font-medium transition duration-200 ease-out;
   }
   .btn-primary {
-    @apply btn bg-navy text-white hover:bg-navy-dark hover:-translate-y-0.5 active:translate-y-0 shadow-card hover:shadow-hover;
+    @apply btn bg-brand text-white hover:bg-brand-dark hover:-translate-y-0.5 active:translate-y-0 shadow-card hover:shadow-hover;
   }
   .btn-secondary {
-    @apply btn bg-white text-navy border-[1.5px] border-navy hover:bg-mist active:bg-mist;
+    @apply btn bg-white text-brand border-[1.5px] border-brand hover:bg-mist active:bg-mist;
   }
   .btn-accent {
     @apply btn bg-cyan text-ink font-semibold hover:brightness-95 hover:-translate-y-0.5 active:translate-y-0 shadow-card hover:shadow-hover;
   }
   .link-cyan {
-    @apply text-navy underline decoration-cyan decoration-2 underline-offset-2 hover:text-cyan transition-colors;
+    @apply text-brand underline decoration-cyan decoration-2 underline-offset-2 hover:text-cyan transition-colors;
   }
   .card {
     @apply bg-white rounded-md p-6 shadow-card transition duration-200 ease-out;
   }
   .field {
-    @apply w-full rounded-sm border border-slate/40 bg-white px-4 py-3 text-[16px] text-ink placeholder:text-slate/70 focus:border-navy focus:ring-0 transition-colors;
+    @apply w-full rounded-sm border border-slate/40 bg-white px-4 py-3 text-[16px] text-ink placeholder:text-slate/70 focus:border-brand focus:ring-0 transition-colors;
   }
   .field-label {
     @apply block text-[14px] font-medium text-ink/75 mb-1.5;

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mwmvending.com/sitemap.xml
+Sitemap: https://newenglandvendingconnector.com/sitemap.xml

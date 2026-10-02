@@ -1,6 +1,6 @@
-# MWM Vending
+# New England Vending Connector
 
-Marketing site for MWM Vending. Vending machines, AI smart coolers, office coffee, and micro-markets across New England and New York.
+Marketing site for New England Vending Connector (NEVC), a DBA of Vital Vending Sales. NEVC matches New England businesses and schools with vetted vending and micro-market providers. It is a matching service, not a vending operator: see `NEVC-Brand-Kit.md` (voice rules) before editing copy.
 
 Lighthouse (mobile + desktop): 100 / 100 / 100 / 100.
 
@@ -39,7 +39,7 @@ Static deployment on Vercel — no install, no build (`vercel.json`: null comman
 
 ## Before launch
 
-- Replace the three testimonial placeholders with real reviews.
-- Add the business street address (currently `[Business address: add before launch]`).
+- Confirm the phone number and that the `info@newenglandvendingconnector.com` inbox exists.
+- Confirm the "within one business day" response promise (FAQ, contact section, JSON-LD).
 - Point the lead form `action` at a real endpoint (Formspree, a Vercel function, etc.).
-- Add real client logos or remove that idea (the strip was already removed).
+- Add Terms of Service and Privacy Policy pages that reference Vital Vending Sales as the legal entity.

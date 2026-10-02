@@ -5,3 +5,7 @@ dist/
 .DS_Store
 Thumbs.db
 *.log
+
+# Internal business docs: keep out of the public repo
+NEVC-Brand-Kit.md
+New England Vending Connector*Brief.pdf
